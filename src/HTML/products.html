@@ -6,7 +6,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=EDGE"/><!--Compatibilitate cu browser-ul Edge-->
         <title>Catalogul produselor</title><!-- Titlul paginii în browser -->
     <!-- Conectare CSS extern -->
-        <link rel="stylesheet" href="../CSS/styles.css">
+        <link rel="stylesheet" href="../CSS/base.css">
+        <link rel="stylesheet" href="../CSS/layout.css">
+        <link rel="stylesheet" href="../CSS/hero.css">
+        <link rel="stylesheet" href="../CSS/table.css">
+        <link rel="stylesheet" href="../CSS/contact.css">
+        <link rel="stylesheet" href="../CSS/grid.css">
     </head>
     <body>
         <!-- Antetul site-ului cu denumire si navigare-->
@@ -24,15 +29,46 @@
             </nav>
         </header>
         <main>
-            <section class="hero">
+            <div class="hero">
                 <h2>Mobilier modern pentru casa ta</h2>
                 <p>Descoperă colecția noastră de mobilier elegant și confortabil.</p>
-
-            <!--Exemplu de imagine de mobilier-->
-                <img src="../Images/Pat.jpg" alt="Mobilier modern" >
-                <img src="../Images/Pat Alyaska.png" alt="Pat Alyaska">
-                <img src="../Images/Pat Barcelona.jpg" alt="Pat Barcelona">
-            </section>
+            </div>
+            <div class="product-greed">
+                <div class="product-card">
+                    <img src="../Images/Pat.jpg" alt="Pat modern">
+                    <h3>Pat modern</h3>
+                    <p class="price">7000MDL</p>
+                    <label for="size1">Dimensiuni:</label>
+                    <select  id="size1">
+                        <option>90x200</option>
+                        <option>120x200</option>
+                        <option>140x200</option>
+                    </select>
+                    <button>Cumpără</button>
+                </div>
+                <div class="product-card">
+                    <img src="../Images/Pat Alyaska.png" alt="Alyaska">
+                    <h3>Pat Alyaska</h3>
+                    <p class="price">14000MDL</p>
+                    <label for="size2">Dimensiuni:</label>
+                    <select  id="size2">
+                        <option>80/120x200</option>
+                        <option>90/140x200</option>
+                    </select>
+                    <button>Cumpără</button>
+                </div>
+                <div class="product-card">
+                    <img src="../Images/Pat Barcelona.jpg" alt="Barcelona">
+                    <h3>Pat Bbarcelona</h3>
+                    <p class="price">12810MDL</p>
+                    <label for="size3">Dimensiuni:</label>
+                    <select  id="size3">
+                        <option>160x200</option>
+                        <option>140x200</option>
+                    </select>
+                    <button>Cumpără</button>
+                </div>
+            </div>
 
             <section class="product-table">
                 <h2>Lista produselor</h2>
