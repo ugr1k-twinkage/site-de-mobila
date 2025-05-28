@@ -56,3 +56,27 @@
 .product-card button:hover {
     background-color: #5a2d0c;
 }
+
+.price {
+    margin: 10px 0;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.new-price {
+    color: #c0392b;
+    font-weight: bold;
+    font-size: 16px;
+}
+.clickable-image{
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.clickable-image:hover{
+    transform: scale(1.02);    
+}
